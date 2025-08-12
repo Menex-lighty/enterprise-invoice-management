@@ -365,10 +365,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 **Contact**
 
-**Developer**: Your Name  
-**Email**: your.email@example.com  
-**LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-**Portfolio**: [Your Portfolio Website](https://yourportfolio.com)
+**Developer**: Rishabh Sinha  
+**Email**: rishabhsinha1712@gmail.com  
+**LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/rishabh-sinha-b79b11229)  
 
 ---
 
