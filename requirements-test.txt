@@ -1,0 +1,67 @@
+# Testing Dependencies for Invoice Management System
+
+# Core testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+pytest-xdist>=3.3.0
+pytest-timeout>=2.1.0
+pytest-html>=3.2.0
+pytest-json-report>=1.5.0
+
+# Flask testing
+pytest-flask>=1.2.0
+flask-testing>=0.8.1
+
+# Database testing
+pytest-alembic>=0.10.0
+sqlalchemy-utils>=0.41.0
+
+# Test data generation
+factory-boy>=3.3.0
+faker>=19.0.0
+
+# Code quality and coverage
+coverage>=7.2.0
+codecov>=2.1.0
+
+# Performance testing
+pytest-benchmark>=4.0.0
+
+# API testing
+requests>=2.31.0
+responses>=0.23.0
+
+# Mock and fixtures
+pytest-mock>=3.11.0
+responses>=0.23.0
+
+# Date/time testing
+freezegun>=1.2.0
+
+# Security testing
+bandit>=1.7.0
+safety>=2.3.0
+
+# Linting and formatting (for CI/CD)
+flake8>=6.0.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Utilities
+tox>=4.6.0
+pre-commit>=3.3.0
+
+# Dependencies for utils testing
+reportlab>=4.0.0
+openpyxl>=3.1.0
+pandas>=2.0.0
+num2words>=0.5.12
+
+# Additional test utilities
+testfixtures>=7.1.0
+pyfakefs>=5.2.0
+
+# Note: Removed pytest-doctest as it doesn't exist
+# Use pytest --doctest-modules instead for docstring testing

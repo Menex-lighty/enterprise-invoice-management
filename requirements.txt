@@ -1,0 +1,175 @@
+# Invoice Management System - Complete Dependencies
+# API Backend + Web Interface
+
+# ============================================================================
+# CORE FLASK FRAMEWORK
+# ============================================================================
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.5.3
+Flask-Limiter==3.5.0
+
+# ============================================================================
+# WEB INTERFACE DEPENDENCIES (NEW)
+# ============================================================================
+Flask-Session==0.5.0          # Session management for web interface
+Flask-WTF==1.1.1              # Web forms with CSRF protection
+WTForms==3.0.1                # Form validation and rendering
+Flask-WTF[email]==1.1.1       # Email validation support
+
+# ============================================================================
+# DATABASE
+# ============================================================================
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9        # PostgreSQL adapter
+alembic==1.13.1               # Database migrations
+
+# ============================================================================
+# SECURITY
+# ============================================================================
+Werkzeug==2.3.7               # WSGI utilities
+bcrypt==4.1.2                 # Password hashing
+PyJWT==2.8.0                  # JSON Web Tokens
+cryptography==41.0.7          # Cryptographic functions
+
+# ============================================================================
+# PDF GENERATION
+# ============================================================================
+reportlab==4.0.7              # PDF creation
+num2words==0.5.12             # Number to words conversion
+
+# ============================================================================
+# EXCEL GENERATION
+# ============================================================================
+openpyxl==3.1.2               # Excel file creation/editing
+pandas==2.1.4                 # Data manipulation
+xlsxwriter==3.1.9             # Excel writing
+
+# ============================================================================
+# CORE UTILITIES
+# ============================================================================
+python-dotenv==1.0.0          # Environment variable loading
+click==8.1.7                  # Command line interface
+itsdangerous==2.1.2           # Secure cookie signing
+Jinja2==3.1.2                 # Template engine
+MarkupSafe==2.1.3             # Safe string handling
+python-dateutil==2.8.2        # Date/time utilities
+pytz==2023.3                  # Timezone support
+
+# ============================================================================
+# HTTP AND API
+# ============================================================================
+requests==2.31.0              # HTTP library
+urllib3==2.1.0                # HTTP client
+
+# ============================================================================
+# DATA VALIDATION
+# ============================================================================
+marshmallow==3.20.1           # Object serialization
+email-validator==2.1.0        # Email validation
+cerberus==1.3.5               # Data validation
+jsonschema==4.20.0            # JSON schema validation
+
+# ============================================================================
+# PRODUCTION SERVER
+# ============================================================================
+gunicorn==21.2.0              # WSGI HTTP server
+gevent==23.9.1                # Asynchronous networking
+
+# ============================================================================
+# LOGGING AND MONITORING
+# ============================================================================
+python-json-logger==2.0.7     # Structured logging
+sentry-sdk==1.38.0            # Error tracking
+
+# ============================================================================
+# MATH AND SCIENTIFIC
+# ============================================================================
+numpy==1.24.4                 # Numerical computing
+
+# ============================================================================
+# FILE HANDLING
+# ============================================================================
+Pillow==10.1.0                # Image processing
+
+# ============================================================================
+# DATE/TIME UTILITIES
+# ============================================================================
+arrow==1.3.0                  # Better date/time handling
+
+# ============================================================================
+# CONFIGURATION MANAGEMENT
+# ============================================================================
+pydantic==2.5.2               # Data validation using type hints
+pydantic-settings==2.1.0      # Settings management
+
+# ============================================================================
+# STRING UTILITIES
+# ============================================================================
+unidecode==1.3.7              # ASCII transliterations
+fuzzywuzzy==0.18.0            # Fuzzy string matching
+python-Levenshtein==0.25.0    # String distance metrics
+
+# ============================================================================
+# API DOCUMENTATION (OPTIONAL)
+# ============================================================================
+Flask-RESTful==0.3.10         # RESTful API helpers
+flask-restx==1.3.0            # API documentation
+
+# ============================================================================
+# CACHING (OPTIONAL)
+# ============================================================================
+Flask-Caching==2.1.0          # Caching support
+redis==5.0.1                  # Redis client
+
+# ============================================================================
+# JSON UTILITIES
+# ============================================================================
+simplejson==3.19.2            # JSON encoder/decoder
+
+# ============================================================================
+# INTERNATIONALIZATION
+# ============================================================================
+babel==2.13.1                 # Internationalization
+
+# ============================================================================
+# SERIALIZATION
+# ============================================================================
+msgpack==1.0.7                # Binary serialization
+
+# ============================================================================
+# DATA PROCESSING
+# ============================================================================
+tabulate==0.9.0               # Pretty-print tabular data
+
+# ============================================================================
+# SYSTEM MONITORING
+# ============================================================================
+psutil==5.9.6                 # System and process utilities
+
+# ============================================================================
+# TYPE HINTS
+# ============================================================================
+typing-extensions==4.8.0      # Extended type hints
+
+# ============================================================================
+# BACKGROUND TASKS (OPTIONAL)
+# ============================================================================
+celery==5.3.4                 # Distributed task queue
+
+# ============================================================================
+# EMAIL SUPPORT (FUTURE)
+# ============================================================================
+Flask-Mail==0.9.1             # Email sending
+
+# ============================================================================
+# NOTES:
+# ============================================================================
+# 1. All API functionality preserved
+# 2. Added web interface dependencies
+# 3. Backward compatible with existing installation
+# 4. Optional dependencies marked as such
+# 5. Production-ready versions selected
+# 6. Security-focused package versions
